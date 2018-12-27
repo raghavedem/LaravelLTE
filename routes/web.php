@@ -16,7 +16,6 @@
 // });
 
 Auth::routes();
-
 Route::get('/', 'HomeController@index')->name('home');
 Route::view('/{path?}', 'layouts.app');
 // Route::get('/home', 'HomeController@index')->name('home');

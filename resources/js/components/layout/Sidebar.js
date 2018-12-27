@@ -48,14 +48,14 @@ export default class Sidebar extends Component {
          <Link to="/contact"><i className="fa fa-link"></i> <span>Contact</span></Link>
         </li>
         <li className="treeview">
-          <a href="#"><i className="fa fa-link"></i> <span>Multilevel</span>
+           <Link to="/contact"><i className="fa fa-link"></i> <span>Multilevel</span>
             <span className="pull-right-container">
                 <i className="fa fa-angle-left pull-right"></i>
               </span>
-          </a>
+          </Link>
           <ul className="treeview-menu">
-            <li><a href="#">Link in level 2</a></li>
-            <li><a href="#">Link in level 2</a></li>
+            <li> <Link to="/contact">Link in level 2</Link></li>
+            <li> <Link to="/contact">Link in level 2</Link></li>
           </ul>
         </li>
       </ul>
